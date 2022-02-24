@@ -1,0 +1,6 @@
+com\ay\controller\AyTestController.class
+com\ay\dao\AyUserDao.class
+com\ay\service\AyUserService.class
+com\ay\model\AyUser.class
+com\ay\service\impl\AyUserServiceImpl.class
+com\ay\controller\AyUserController.class
