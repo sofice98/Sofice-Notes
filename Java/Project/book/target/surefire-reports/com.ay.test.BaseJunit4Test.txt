@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.ay.test.BaseJunit4Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.079 s <<< FAILURE! - in com.ay.test.BaseJunit4Test
+initializationError(com.ay.test.BaseJunit4Test)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: No runnable methods
+
