@@ -5,6 +5,8 @@
 
 <div align="center">
 
+[![star](https://gitee.com/sofice98/Sofice-Notes/badge/star.svg?theme=dark)](https://gitee.com/sofice98/Sofice-Notes/stargazers)
+[![fork](https://gitee.com/sofice98/Sofice-Notes/badge/fork.svg?theme=dark)](https://gitee.com/sofice98/Sofice-Notes/members)
 [![GitHub stars](https://img.shields.io/github/stars/sofice98/Sofice-Notes?logo=github)](https://github.com/sofice98/Sofice-Notes/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/sofice98/Sofice-Notes?logo=github)](https://github.com/sofice98/Sofice-Notes/network)
 
@@ -20,10 +22,10 @@
 
 🙏 由于本人水平有限，如有遗漏或发现文章错误及排版问题，请提 issue 或 PR
 
-⚡ [Github 仓库地址](https://github.com/sofice98/Sofice-Notes) | [Github 在线阅读](https://sofice98.github.io/Sofice-Notes/)
+⚡ [Gitee 仓库地址](https://gitee.com/sofice98/Sofice-Notes) | [Gitee 在线阅读](https://sofice98.gitee.io/sofice-notes/) | [Github 仓库地址](https://github.com/sofice98/Sofice-Notes) | [Github 在线阅读](https://sofice98.github.io/Sofice-Notes/)
 
 
-## 🕳 小司的秘密洞穴
+## 🕳 小司的秘密森林
 
 ---
 
@@ -79,12 +81,20 @@
 ---
 
 1. [软件工程基础](软件工程/1.软件工程基础.md)
-
 2. [二十三种设计模式 & 七大原则](软件工程/2.二十三种设计模式&七大原则.md)
-
 3. 22 CodeSmell（编程的22种坏味道）
-
 4. [DevOps & CI & CD](软件工程/4.DevOps&CI&CD.md)
+
+## 🎇前端
+
+---
+
+1. [HTML5](前端/1.HTML.md)
+2. [CSS3](前端/2.CSS.md)
+3. [JavaScript](前端/3.JavaScript.md)
+4. [React](前端/4.React.md)
+5. Vue
+
 
 
 ## 🍵 Java
@@ -185,21 +195,8 @@
 2. k8s
 
 
-## 前端
 
----
-
-1. [HTML CSS](前端/HTML+CSS.md)
-
-2. [JavaScript](前端/JavaScript.md)
-
-3. [JSON详解](前端/JSON详解.md)
-
-4. [Vue](前端/Vue.md)
-
-
-
-## 数据科学
+## 👨‍🎓数据科学
 
 ---
 

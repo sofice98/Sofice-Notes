@@ -1,85 +1,3 @@
-@Sofice
-
-网页开发学习笔记
-
-# JavaScript
-
-## 基础
-
-### console
-
-```javascript
-console.log("hello")//输出
-var json1=[			//json对象
-		{name:"sizhanyu",age:20},
-		{name:"yezhuangzhuang",age:21}
-	]
-console.dir(js)		//输出一个对象所有属性和方法
-```
-
-### function
-
-```javascript
-//普通函数
-function add(a,b){
-    console.log(a+b);
-}
-add(3+4)//使用
-//表达式函数
-var add=function(a,b){
-    console.log(a+b);
-}
-//回调函数
-function callback(fun,a,b){
-	fun(a,b);
-}
-callback(add,3,4);//使用回调函数（不加括号）
-callback(function(a,b){//使用匿名函数参数的回调函数,此时不需定义add
-    console.log(a+b);
-},3,4);
-callback((a,b)=>{//ES6
-    console.log(a+b);
-},3,4);
-```
-
-### 模块
-
-```javascript
-//主文件 app.js
-var stuff=require('./count.js')//导入模块
-console.log(stuff.add(3,4));//取出对象
-console.log(stuff.pi);
-```
-
-```javascript
-//模块文件 count.js,与主文件在同一目录下
-var add=(a,b)=>{
-	return 'the sum is '+(a+b);
-}
-var pi=3.14;
-module.exports={//导出对象
-	add:add,//外部名字：内部名字
-	pi:pi,
-}
-```
-
-### 事件
-
-```javascript
-var events=require('events')
-var myEmitter = new events.EventEmitter();
-
-myEmitter.on('someEvent',function(message){//定义事件someEvent
-	console.log(message);
-})
-myEmitter.emit('someEvent','the event was emitted')//触发事件someEvent
-
-```
-
-
-
-
-
 # Node.js
 
 [Node.js官网](http://nodejs.cn/api/)
@@ -226,6 +144,7 @@ app.post('/profile', upload.single('avatar'), function (req, res, next) {
   // req.body 将具有文本域数据，如果存在的话
 })
 ```
+
 #### DiskStorage引擎
 
 ```javascript
@@ -368,60 +287,6 @@ app.use('/', indexRouter);
 ## 连接MongoDB
 
 [API](http://mongodb.github.io/node-mongodb-native/3.1/api/)
-
-
-
-
-
-# 开发工具
-
-## Sublime Text3
-
-——html,css,js代码编辑器
-
-### 插件
-
-1.AutoFileName
-
-2.BracketHighlighter
-
-3.DocBlockr
-
-4.Emmet
-
-5.JsFormat
-
-6.Package Control——管理插件
-
-7.Side Bar——管理文件操作
-
-8.View in Browser——快速在浏览器中访问当前网页
-
-9.Nodejs
-
-10.SublimeCodeIntel——代码提示，需要配置文件
-
-11.ColorPicker——ctrl+shift+c
-
-## Typora
-
-——Markdown编辑器
-
-## Postman
-
-——模拟前端表单发送
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
