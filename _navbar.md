@@ -1,4 +1,4 @@
-* [主页](https://veal98.gitee.io/cs-wiki/#/README)
+* [主页](https://sofice98.gitee.io/sofice-notes/#/README)
     * [📑 计算机基础](README?id=📑-计算机基础)
     * [🍵 Java](README?id=🍵-java)
     * [🔥 必备框架](README?id=🔥-必备框架)
